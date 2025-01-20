@@ -24,7 +24,6 @@ export default function Introdution() {
             <tr>
               <th className="p-2 border border-collapse border-slate-300">Language Code</th>
               <th className="p-2 border border-collapse border-slate-300">Words/Min</th>
-              <th className="p-2 border border-collapse border-slate-300">Syllables/Min</th>
               <th className="p-2 border border-collapse border-slate-300">Characters/Min</th>
             </tr>
           </thead>
@@ -32,103 +31,86 @@ export default function Introdution() {
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Ara</td>
               <td className="p-2 border border-collapse border-slate-300">138 (20)</td>
-              <td className="p-2 border border-collapse border-slate-300">339 (48)</td>
               <td className="p-2 border border-collapse border-slate-300">612 (88)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Chi</td>
               <td className="p-2 border border-collapse border-slate-300">158 (19)</td>
               <td className="p-2 border border-collapse border-slate-300">255 (29)</td>
-              <td className="p-2 border border-collapse border-slate-300">255 (29)</td>
             </tr>
             <tr>
               <td className="p-2  border border-collapse border-slate-300">Dut</td>
               <td className="p-2 border border-collapse border-slate-300">202 (29)</td>
-              <td className="p-2 border border-collapse border-slate-300">330 (49)</td>
               <td className="p-2 border border-collapse border-slate-300">978 (143)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Eng</td>
               <td className="p-2 border border-collapse border-slate-300">228 (30)</td>
-              <td className="p-2 border border-collapse border-slate-300">313 (38)</td>
               <td className="p-2 border border-collapse border-slate-300">987 (118)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Fin</td>
               <td className="p-2 border border-collapse border-slate-300">161 (18)</td>
-              <td className="p-2 border border-collapse border-slate-300">426 (49)</td>
               <td className="p-2 border border-collapse border-slate-300">1078 (121)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Fre</td>
               <td className="p-2 border border-collapse border-slate-300">195 (26)</td>
-              <td className="p-2 border border-collapse border-slate-300">301 (39)</td>
               <td className="p-2 border border-collapse border-slate-300">998 (126)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Ger</td>
               <td className="p-2 border border-collapse border-slate-300">179 (17)</td>
-              <td className="p-2 border border-collapse border-slate-300">307 (30)</td>
               <td className="p-2 border border-collapse border-slate-300">920 (86)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Heb</td>
               <td className="p-2 border border-collapse border-slate-300">187 (29)</td>
-              <td className="p-2 border border-collapse border-slate-300">462 (73)</td>
               <td className="p-2 border border-collapse border-slate-300">833 (130)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Ita</td>
               <td className="p-2 border border-collapse border-slate-300">188 (28)</td>
-              <td className="p-2 border border-collapse border-slate-300">405 (61)</td>
               <td className="p-2 border border-collapse border-slate-300">950 (140)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Jap</td>
               <td className="p-2 border border-collapse border-slate-300">193 (30)</td>
-              <td className="p-2 border border-collapse border-slate-300">447 (69)</td>
               <td className="p-2 border border-collapse border-slate-300">357 (56)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Pol</td>
               <td className="p-2 border border-collapse border-slate-300">166 (23)</td>
-              <td className="p-2 border border-collapse border-slate-300">354 (49)</td>
               <td className="p-2 border border-collapse border-slate-300">916 (126)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Por</td>
               <td className="p-2 border border-collapse border-slate-300">181 (29)</td>
-              <td className="p-2 border border-collapse border-slate-300">376 (60)</td>
               <td className="p-2 border border-collapse border-slate-300">913 (145)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Rus</td>
               <td className="p-2 border border-collapse border-slate-300">184 (32)</td>
-              <td className="p-2 border border-collapse border-slate-300">439 (78)</td>
               <td className="p-2 border border-collapse border-slate-300">986 (175)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Slo</td>
               <td className="p-2 border border-collapse border-slate-300">180 (30)</td>
-              <td className="p-2 border border-collapse border-slate-300">232 (38)</td>
               <td className="p-2 border border-collapse border-slate-300">885 (145)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Spa</td>
               <td className="p-2 border border-collapse border-slate-300">218 (28)</td>
-              <td className="p-2 border border-collapse border-slate-300">526 (64)</td>
               <td className="p-2 border border-collapse border-slate-300">1025 (127)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Swe</td>
               <td className="p-2 border border-collapse border-slate-300">199 (34)</td>
-              <td className="p-2 border border-collapse border-slate-300">327 (56)</td>
               <td className="p-2 border border-collapse border-slate-300">917 (156)</td>
             </tr>
             <tr>
               <td className="p-2 border border-collapse border-slate-300">Tur</td>
               <td className="p-2 border border-collapse border-slate-300">166 (25)</td>
-              <td className="p-2 border border-collapse border-slate-300">444 (66)</td>
               <td className="p-2 border border-collapse border-slate-300">1054 (156)</td>
             </tr>
           </tbody>
