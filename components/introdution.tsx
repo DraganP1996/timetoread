@@ -3,7 +3,6 @@ export default function Introdution() {
     <article className="py-4">
       <h1 className="text-3xl font-bold"> Reading Time Estimation: How it works ?</h1>
       <p>
-        {" "}
         Everyone of us has a different reading speed, so it is not possible to predict with an
         accurancy of 100% the reading speed of a specific human being. But the reading proficency of
         a specific indivudual it is not the only variable to consider. We need to consider that
@@ -11,7 +10,6 @@ export default function Introdution() {
         influenced by the language of the text itself.
       </p>
       <p>
-        {" "}
         Some accademic studies (you can take a look to the linked resourced at the end of the
         article if you want to read more details) are suggesting an average reading speed of 184 ±
         29 WPM (words per minute). Below, you can find the specific reading speed for 16 different

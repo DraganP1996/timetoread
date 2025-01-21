@@ -28,13 +28,13 @@ export default function TextArea() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid grid-rows-1 grid-cols-4 sm:grid-cols-5 gap-2 justify-start items-center">
+      <div className="grid grid-rows-1 grid-cols-3 md:grid-cols-5 gap-2 justify-start items-center">
         <ResultBox label="READING TIME" value={formattedDuration || "0"} />
         <ResultBox label="WORDS" value={`${countWords}`} />
         <ResultBox label="CHARACTERS" value={`${countChars}`} />
       </div>
       <textarea
-        className="w-full border border-green-50 rounded-lg h-[50vh] shadow"
+        className="w-full border border-green-50 rounded-lg h-[50vh] shadow p-2"
         onChange={onTextareChange}
       ></textarea>
     </div>
