@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
+import type { WebApplication, WithContext } from "schema-dts";
+
 import "./globals.css";
 import Header from "@/components/header";
+import Script from "next/script";
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
@@ -18,9 +21,28 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schemaJSONLD: WithContext<WebApplication> = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Reading Time Estimator | Calculate Reading Times Quickly",
+    url: "https://www.example.com",
+    applicationCategory: "Utility",
+    operatingSystem: "All",
+    browserRequirements: "Requires JavaScript",
+    description:
+      "Reading time estimator: Calculate the time needed to read a specific text. Useful tool that estimates the reading time of a specific text. Rely on accademic studies about the average reading speed.",
+  };
+
   return (
     <html lang="en">
       <body className={`${robotoMono.className} antialiased`}>
+        <Script
+          id="web-app-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaJSONLD),
+          }}
+        />
         <Header />
         {children}
       </body>

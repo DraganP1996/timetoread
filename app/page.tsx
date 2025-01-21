@@ -4,10 +4,10 @@ import Introdution from "@/components/introdution";
 import TextArea from "@/components/textarea";
 
 export const metadata: Metadata = {
-  title: "Reading time estimator",
+  title: "Reading Time Estimator | Calculate Reading Times Quickly",
   description:
     "Reading time estimator: Calculate the time needed to read a specific text. Useful tool that estimates the reading time of a specific text. Rely on accademic studies about the average reading speed.",
-  applicationName: "Reading Time Estimator",
+  applicationName: "Reading Time Estimator | Calculate Reading Times Quickly",
   authors: {
     name: "Dragan Petrovic",
     url: "https://github.com/DraganP1996",
