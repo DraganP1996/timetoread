@@ -31,6 +31,10 @@ export default function RootLayout({
     browserRequirements: "Requires JavaScript",
     description:
       "Reading time estimator: Calculate the time needed to read a specific text. Useful tool that estimates the reading time of a specific text. Rely on accademic studies about the average reading speed.",
+    offers: {
+      "@type": "Offer",
+      price: 0,
+    },
   };
 
   return (
