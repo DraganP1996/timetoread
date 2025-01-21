@@ -4,9 +4,9 @@ export default function Introdution() {
       <h1 className="text-3xl font-bold"> Reading Time Estimation: How it works ?</h1>
       <p>
         Everyone of us has a different reading speed, so it is not possible to predict with an
-        accurancy of 100% the reading speed of a specific human being. But the reading proficency of
-        a specific indivudual it is not the only variable to consider. We need to consider that
-        different languages have diffent type of words and phonems, so the reading speed can be
+        accurancy of 100% the reading time of a specific human being. But the reading proficency of
+        an indivudual it is not the only variable to consider. We need to consider that different
+        languages have diffent type of words and phonems, so the calculation of reading time can be
         influenced by the language of the text itself.
       </p>
       <p>
@@ -120,9 +120,9 @@ export default function Introdution() {
         </li>
         <li className="ml-4">
           {" "}
-          <strong> Referent WPM: </strong> Once we know the language, we are peeking the wpm for the
-          language from the data in the previous table. If the language it is not in the table, we
-          are choosing the average WPM, 184 (as explained before).{" "}
+          <strong> Referent WPM: </strong> Once we know the language, we are peeking the wpm used
+          for the estimation from the language speicific data in the previous table. If the language
+          it is not in the table, we are choosing the average WPM, 184 (as explained before).{" "}
         </li>
         <li className="ml-4">
           <strong> Calculation: </strong> The last step it is very simple, we are counting the words

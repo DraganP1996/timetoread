@@ -35,6 +35,7 @@ export default function TextArea() {
       </div>
       <textarea
         className="w-full border border-green-50 rounded-lg h-[50vh] shadow p-2"
+        placeholder="Type or paste your text to convert it to the time needed to read."
         onChange={onTextareChange}
       ></textarea>
     </div>
