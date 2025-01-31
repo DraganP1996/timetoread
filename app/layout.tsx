@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
+
 import type { WebApplication, WithContext } from "schema-dts";
 
 import "./globals.css";
@@ -54,6 +56,7 @@ export default function RootLayout({
         />
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   );
