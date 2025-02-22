@@ -7,7 +7,6 @@ import type { WebApplication, WithContext } from "schema-dts";
 import "./globals.css";
 import Header from "@/components/header";
 import Script from "next/script";
-import Head from "next/head";
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
@@ -42,10 +41,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <Head>
-        <link rel="canonical" href="https://www.readingtimeestimator.com" key="canonical" />
-      </Head>
-
       <body className={`${robotoMono.className} antialiased`}>
         <Script
           id="web-app-schema"

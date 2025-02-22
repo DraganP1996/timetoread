@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   ],
   creator: "Dragan Petrovic",
   publisher: "Dragan Petrovic",
+  alternates: 
+    {
+      canonical: 'https://www.readingtimeestimator.com/'
+    }
 };
 
 export const viewport: Viewport = {
