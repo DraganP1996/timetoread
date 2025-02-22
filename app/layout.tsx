@@ -41,6 +41,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-7098826907138268" />
+      </head>
       <body className={`${robotoMono.className} antialiased`}>
         <Script
           id="web-app-schema"
