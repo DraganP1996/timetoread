@@ -48,6 +48,11 @@ export default function RootLayout({
           src="https://cloud.umami.is/script.js"
           data-website-id="80d27b72-56d2-4867-8529-f8894b053e11"
         ></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098826907138268"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className={`${robotoMono.className} antialiased`}>
         <Script
