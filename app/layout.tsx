@@ -43,6 +43,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-adsense-account" content="ca-pub-7098826907138268" />
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="80d27b72-56d2-4867-8529-f8894b053e11"
+        ></script>
       </head>
       <body className={`${robotoMono.className} antialiased`}>
         <Script
